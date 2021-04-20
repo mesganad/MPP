@@ -1,0 +1,4 @@
+values in the HashMap are
+modified by setVisited method, causes incorrect results (violating
+principle that keys should be
+immutable)

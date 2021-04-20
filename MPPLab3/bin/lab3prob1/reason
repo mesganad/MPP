@@ -1,0 +1,6 @@
+a.
+Subclass object can't be equal to Superclass object. Because Subclass can act as Super/parent
+but parent can't act as sub/child.
+So "p1.equals(p2)=>child.equals(parent)" is false. Whereas "p2.equals(p1)=>parent.equals(child)" is true. 
+We can solve this problem using Composition. PersonWithJob has a Person relationship.
+i.e. in our equals method the subclass can act as an instanceOf super class but not the reverse.

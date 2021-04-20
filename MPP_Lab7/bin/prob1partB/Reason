@@ -1,0 +1,4 @@
+The type of object that has to be passed to equals method of Employee class must be 
+Object type. The signature shouldn't be changed. Now the type is changed to Object and 
+it's converted or casted to Employee type later to compare the name and salary of the 
+two instances.

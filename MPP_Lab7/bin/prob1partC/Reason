@@ -1,0 +1,5 @@
+hashCode method of Object type is not overriden. Operations and mappings on hashmap
+are done with hashCode method. So we have to override hashCode in addition to equals.
+When we use hashmap, we have to override hashcode method of Object so that 
+operations like containsKey(),containsValue() can use the overriden hashCode 
+method instead of Object's hashCode method.
